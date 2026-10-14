@@ -87,6 +87,12 @@ pause
 
 ## 🔍 Evidencias del Proyecto
 
-> *Adjunta aquí tus capturas de pantalla clave:*
-> 1. **Estado de salud de Alloy (`http://127.0.0.1:12346`):** Muestra los componentes `loki.write.local`, `security_logs` y `app_logs` en estado **Healthy**.
-> 2. **Flujo de Logs en Grafana (`Grafana Explore`):** Muestra la recepción continua de eventos (ej. `event_id 5379`) utilizando la consulta LogQL `{job="windows_security"}`.
+1. **Estado de salud de Alloy (`http://127.0.0.1:12346`):**
+   Muestra los componentes `loki.write.local`, `security_logs` y `app_logs` en estado **Healthy**.
+
+   ![Estado de Salud de Grafana Alloy](./assets/alloy-status.png)
+
+2. **Flujo de Logs en Grafana (Grafana Explore):**
+   Muestra la recepción continua de eventos (ej. `event_id 5379`) utilizando la consulta LogQL `{job="windows_security"}`.
+
+   ![Flujo de Logs en Grafana](./assets/grafana-logs.png)
